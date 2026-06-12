@@ -46,7 +46,6 @@ func _on_bus_3_pressed() -> void:
 		DialogueManager.show_dialogue_balloon(DIALOGUE_EXAMPLE_1, "start")
 	await get_tree().create_timer(3.5).timeout
 	numBusses = 0
-	 q
 # ----- Funciones de dialogo -------
 func on_dialogue_started(dialogue) -> void:
 	isDialogueActive = true
